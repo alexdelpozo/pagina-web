@@ -1,0 +1,70 @@
+@font-face{
+    font-family: "Awake the Beauty";
+    src:url(tipologia/Awake\ the\ Beauty.ttf)
+}
+body{
+    background-color:  #7ca494 ;
+    position: relative;
+    height: 100vh;
+}
+.titulo{
+    color: rgb(238, 236, 211);
+    font-family: Awake the Beauty;
+    font-size: 400%;
+}
+.caja{
+    position: absolute;
+    left: 10%;
+    top: 35%;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Fjalla One', sans-serif;
+}
+.blanco{
+    color: white;
+}
+
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding-left: 2vw;
+}
+
+.cont-ul {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    padding: 1.5vw;
+    transition: all 0.3s ease 0s;
+}
+
+li:hover {
+    background-color: #7ca494 ;
+}
+
+.develop {
+    position: relative;
+}
+
+
+.develop:hover>.ul-second {
+    display: block;
+}
+
+
+@media (max-width:900px) {
+    .logo-dam {
+        display: none;
+    }
+}
